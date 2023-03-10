@@ -1,0 +1,17 @@
+body {
+  font-family: "Poppins";
+}
+
+[class*="__container"] {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+[class*="__title"] {
+  font-family: "Cal Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 1.2; /* 53/44 */
+}
