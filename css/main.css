@@ -60,7 +60,7 @@ button {
 }
 
 body {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
 }
 
 [class*=__container] {
