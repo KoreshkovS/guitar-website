@@ -16,55 +16,57 @@
     
   </head>
   <body>
-    <header class="header">
-      <div class="header__container">
-        <a href="" class="header__logo logo">
-          <img
-            src="./images/icons/logo-icon.svg"
-            alt="logo icon"
-            class="logo__icon"
-          />
-          Rhythm</a
-        >
-        <div class="menu-container" id="menu-container" data-menu>
-          <nav class="navigation">
-            <ul class="navigation__list">
-              <li class="navigation__item">
-                <a href="" class="navigation__link">Store</a>
-              </li>
-              <li class="navigation__item">
-                <a href="" class="navigation__link">Collections</a>
-              </li>
-              <li class="navigation__item">
-                <a href="" class="navigation__link">Support</a>
-              </li>
-            </ul>
-          </nav>
+  <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <a href="" class="header__logo logo">
+            <img
+              src="./images/icons/logo-icon.svg"
+              alt="logo icon"
+              class="logo__icon"
+            />
+            Rhythm</a
+          >
+          <div class="menu-container" id="menu-container" data-menu>
+            <nav class="navigation">
+              <ul class="navigation__list">
+                <li class="navigation__item">
+                  <a href="" class="navigation__link">Store</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="" class="navigation__link">Collections</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="" class="navigation__link">Support</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+  
+          <button
+            type="button"
+            class="menu-button"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+          >
+            <svg width="40" height="40" class="mobile-menu-icon">
+              <use class="icon-cross" href="./images/icons/icons.svg#cross"></use>
+              <use class="icon-menu" href="./images/icons/icons.svg#menu"></use>
+            </svg>
+          </button>
         </div>
-
-        <button
-          type="button"
-          class="menu-button"
-          aria-expanded="false"
-          aria-controls="menu-container"
-          data-menu-button
-        >
-          <svg width="40" height="40" class="mobile-menu-icon">
-            <use class="icon-cross" href="./images/icons/icons.svg#cross"></use>
-            <use class="icon-menu" href="./images/icons/icons.svg#menu"></use>
-          </svg>
-        </button>
-      </div>
-    </header>
-
-    <main>
-      <section class="hero">
-    
-      </section>
-
-
-    </main>
-    <footer class="footer"></footer>
+      </header>
+  
+      <main class="main">
+        <section class="hero">
+      
+        </section>
+  
+  
+      </main>
+      <footer class="footer"></footer>
+  </div>
 
     <script src="./js/mobile-menu.js"></script>
   </body>

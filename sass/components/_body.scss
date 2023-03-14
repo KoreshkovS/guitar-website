@@ -2,7 +2,15 @@ body {
   font-family: "Poppins", sans-serif;
   color: $mainGray;
 }
-
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  flex: 1 1 auto;
+}
 [class*="__container"] {
   max-width: 1230px;
   padding: 0 15px;
