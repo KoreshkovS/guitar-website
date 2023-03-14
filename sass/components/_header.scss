@@ -1,0 +1,48 @@
+.header {
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  padding-top: 45px;
+}
+.header__logo {
+}
+.menu-container {
+  margin-left: 131px;
+}
+.navigation {
+}
+.navigation__list {
+  display: flex;
+  gap: 56px;
+}
+.navigation__item {
+}
+.navigation__link {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  font-weight: 500;
+  line-height: 1.5; /* 24/16 */
+
+  color: rgba(18, 18, 18, 0.4);
+
+  transition: color 250ms ease;
+
+  &:hover,
+  &:focus {
+    color: rgba(7, 7, 7, 0.6);
+  }
+}
+.menu-button {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-menu-icon {
+}
+.icon-cross {
+}
+.icon-menu {
+}

@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  color: $mainGray;
 }
 
 [class*="__container"] {
@@ -14,4 +15,21 @@ body {
   font-weight: 600;
   font-size: 44px;
   line-height: 1.2; /* 53/44 */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  font-family: "Cal Sans";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2; /* 29/24 */
+
+  color: #121212;
+}
+.logo__icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 12px;
 }
